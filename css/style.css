@@ -14,15 +14,24 @@ ul, li {
 }
 
 .container {
-    min-width: 1170px;
+    max-width: 1170px;
     margin: 0 auto;
     padding: 0 15px;
 }
 
 body {
-
+    font-family: 'PT Serif', serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #5e5e5e;
 }
 
 .header__top {
     background-color: #303030;
+}
+
+.header__btn {
+    float: right;
 }
