@@ -288,4 +288,55 @@ header {
     border: 3px solid #e6e6e6;
 }
 
+.about__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__item {
+    max-width: 360px;
+    text-align: center;
+    padding: 30px 0px 80px;
+    position: relative;
+    min-height: 375px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 7px 24.3px 2.7px rgba(91, 89, 89, 0.14);
+}
+
+.about__item-title {
+    font-family: 'Roboto', sans-serif;
+    color: #212020;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 24px 0;
+}
+
+.about__item-text {
+    letter-spacing: 0.1px;
+    padding: 0px 30px 30px;
+}
+
+.about__item-btn {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+}
+
+.about__item-btn .default-btn {
+    color: #373636;
+}
+
+.about__item-btn .default-btn::after {
+    color: #fff;
+}
+
+.about__item-link {
+    font-family: 'Roboto', sans-serif;
+    color: #050505;
+    border-bottom: 1px solid #050505;
+    margin-right: 60px;
+}
+
 
