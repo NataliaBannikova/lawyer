@@ -339,4 +339,37 @@ header {
     margin-right: 60px;
 }
 
+.about {
+    background-image: url(../img/about-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+    background-repeat: no-repeat;
+    padding: 25px 0px 45px;
+}
+
+.about__inner {
+    max-width: 545px;
+}
+
+.about__title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    line-height: 24px;
+    font-size: 24px;
+    padding: 10px 0px 25px;
+}
+
+.about__text {
+    margin-bottom: 30px;
+    color: #d3d2d2;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+.about__btn.default-btn::after {
+    color: #000;
+}
+
 
