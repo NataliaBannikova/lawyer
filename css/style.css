@@ -252,13 +252,15 @@ header {
     font-family: 'Roboto', sans-serif;
 }
 
-.services__title-box {
+.services__title-box,
+.form__title-box {
     max-width: 520px;
     padding-left: 140px;
     position: relative;
 }
 
-.services__title-box::before {
+.services__title-box::before,
+.form__title-box::before {
     content: '';
     position: absolute;
     width: 100px;
@@ -268,15 +270,17 @@ header {
     top: 11px;
 }
 
-.services-title {
+.services__title,
+.form__title {
     font-size: 24px;
     font-weight: 500;
     line-height: 24px;
-    color: 212020;
+    color: #212020;
     margin-bottom: 10px;
 }
 
-.services-text {
+.services__text,
+.form__text {
     letter-spacing: 0.1px;
 }
 
@@ -370,6 +374,18 @@ header {
 
 .about__btn.default-btn::after {
     color: #000;
+}
+
+.form {
+    padding-top: 30px;
+}
+
+.form__inner {
+    padding-bottom: 40px;
+    background-image: url(../img/form-img.png);
+    min-height: 460px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 
