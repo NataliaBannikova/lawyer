@@ -526,4 +526,25 @@ header {
     float: right;
 }
 
+.advantages {
+    padding: 55px 0px 40px;
+    background-image: url(../img/adv-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 285px;
+    background-size: cover;
+}
+
+.advantages__inner {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.advantages__item {
+    max-width: 360px;
+}
+
+
 
