@@ -544,6 +544,51 @@ header {
 
 .advantages__item {
     max-width: 360px;
+    padding: 0px 20px;
+}
+
+.advantages__title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 60px 0px 15px;
+    position: relative;
+}
+
+.advantages__text {
+    color: #d3d2d2;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+.advantages__title::before {
+    content: '';
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border: 2px solid #ffc222;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.advantages__title::after {
+    font-family: 'icomoon';
+    content: "\f00c";
+    font-size: 14px;
+    position: absolute;
+    top: 9px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
 }
 
 
