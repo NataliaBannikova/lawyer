@@ -245,7 +245,8 @@ header {
     padding: 50px 0px 30px;
 }
 
-.services__top {
+.services__top,
+.news__top {
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
@@ -253,14 +254,16 @@ header {
 }
 
 .services__title-box,
-.form__title-box {
+.form__title-box,
+.news__title-box {
     max-width: 520px;
     padding-left: 140px;
     position: relative;
 }
 
 .services__title-box::before,
-.form__title-box::before {
+.form__title-box::before,
+.news__title-box::before {
     content: '';
     position: absolute;
     width: 100px;
@@ -271,7 +274,8 @@ header {
 }
 
 .services__title,
-.form__title {
+.form__title,
+.news__title {
     font-size: 24px;
     font-weight: 500;
     line-height: 24px;
@@ -280,11 +284,13 @@ header {
 }
 
 .services__text,
-.form__text {
+.form__text,
+.news__text {
     letter-spacing: 0.1px;
 }
 
-.services__btn a {
+.services__btn a,
+.news__btn a {
     color: #373636;
     letter-spacing: 0.25px;
     line-height: 24px;
@@ -589,6 +595,10 @@ header {
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
+}
+
+.news {
+    padding: 55px 0px 110px;
 }
 
 
