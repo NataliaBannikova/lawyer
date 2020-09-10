@@ -599,6 +599,54 @@ header {
 
 .news {
     padding: 55px 0px 110px;
+    background-color: #f9f9f9;
+}
+
+.news__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news__slider {
+    max-width: 555px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.news__blog {
+    max-width: 260px;
+    width: 100%;
+}
+
+.news__image {
+    position: relative;
+}
+
+.news__date {
+    position: absolute;
+    background-color: #ffc222;
+    height: 55px;
+    width: 50px;
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 700;
+    top: 0px;
+    left: 10px;
+}
+
+.news__blog-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.5px; 
+    color: #242424;
+    padding: 12px 0;
+}
+
+.news__blog-text {
+    letter-spacing: 0.1px; 
+    color: #5e5e5e;
 }
 
 
