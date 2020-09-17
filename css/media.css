@@ -1,0 +1,39 @@
+@media (max-width: 700px) {
+    .header__email {
+        padding-right: 10px;
+    }
+    
+    .header__btn {
+        float: none;
+        padding: 5px 20px 4px 20px;
+    }
+
+    .header__btn::before {
+        display: none;
+    }
+
+
+    .header__contacts {
+        text-align: center;
+    }
+}
+
+@media (max-width: 400px) {
+     
+    .header__btn {
+        padding: 5px 20px 4px 50px;
+    }
+
+    .header__btn::before {
+        display: block;
+    }
+
+}
+
+@media (max-width: 375px) {
+
+    .header__email {
+        padding-right: 30px;
+    }
+
+}
