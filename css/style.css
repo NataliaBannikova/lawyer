@@ -824,4 +824,9 @@ header {
     border: none;
 }
 
+.header__btn-menu {
+    display: none;
+    font-size: 28px;
+}
+
 
