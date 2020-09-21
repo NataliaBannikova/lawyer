@@ -1,3 +1,8 @@
+@media (max-width: 900px) {
+    .slider .slick-btn {
+        display: none !important;
+    }
+}    
 @media (max-width: 700px) {
     .header__email {
         padding-right: 10px;
@@ -47,6 +52,18 @@
     
 }
 
+@media (max-width: 414px) {
+     
+    .slick-title {
+        font-size: 24px;
+    }
+
+    .slick-text {
+        font-size: 16px;
+    }
+
+}
+
 @media (max-width: 400px) {
      
     .header__btn {
@@ -66,3 +83,9 @@
     }
 
 }
+
+@media (min-width: 700px) {
+    .menu ul {
+        display: block !important;
+    }
+}    
